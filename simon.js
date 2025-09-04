@@ -9,9 +9,11 @@ let h2=document.querySelector("h2");
 let highScore = localStorage.getItem("highScore") || 0;  // get from localStorage or 0
 let highScoreDisplay = document.getElementById("highScore");  // connect to <p id="highScore">
 
-highScoreDisplay.innerText = "High Score: " + highScore;  // show high score on load
+highScoreDisplay.innerText = "High Score: " + highScore;
+// show high score on load
+let startBtn=  document.getElementById("start-btn");
 
-document.addEventListener("keypress",function(){
+startBtn.addEventListener("click",function(){
     if(started===false){
         started=true;
         console.log("Game Started");
@@ -92,4 +94,5 @@ document.addEventListener("keypress",function(){
     let allbtn = document.querySelectorAll(".btn");
     for (btn of allbtn){
         btn.addEventListener("click",btnpress);
+
      } 
