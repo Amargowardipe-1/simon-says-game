@@ -5,6 +5,17 @@ h1{
     text-align: center;
     color: rgb(3, 3, 3);
 }
+#start-btn{
+    padding: 10px 20px;
+    font-size: 20px;
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 20px;
+    margin-left: 650px;
+}
 h2{
     text-align: center;
     color: #030303;
@@ -48,4 +59,5 @@ p{
 }
 .userflash{
     background-color: green;
+
 }
