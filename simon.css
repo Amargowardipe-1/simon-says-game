@@ -61,3 +61,37 @@ p{
     background-color: green;
 
 }
+@media (min-width: 768px){
+    
+    #start-btn {
+        display: block;
+        margin: 0 auto;
+
+    }
+    .btn{
+        height: 150px;
+        width: 150px;
+        margin: 5px;
+    }
+    p{
+        text-align: center;
+    }
+}
+
+@media (max-width: 760px){
+    
+    #start-btn {
+        display: block;
+        margin: 0 auto;
+
+    }
+    .btn{
+        height: 120px;
+        width: 120px;
+        margin: 5px;
+    }
+    p{
+        text-align: center;
+    }
+}
+
